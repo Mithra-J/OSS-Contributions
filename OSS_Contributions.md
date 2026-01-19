@@ -20,7 +20,7 @@ This repository lists my open source contributions, including pull requests, iss
 - **Language:** JavaScript / HTML / CSS
 - **PR:** [Fix button alignment for icon and non-icon buttons](https://github.com/OpenRefine/OpenRefine/pull/7610)
 - **Status:** Open, awaiting maintainer review
-- **Contribution Date:** Jan 19, 2026
+- **Contribution Date:** Jan 17, 2026
 - **Description:** Fixed inconsistent spacing between buttons with and without icons to ensure consistent visual alignment in the UI. Submitted clean, isolated UI fix.
 
 ---
@@ -31,11 +31,12 @@ This repository lists my open source contributions, including pull requests, iss
 - **Issue:** #99
 - **PR:** Planned
 - **Status:** Planned / assigned
-- **Contribution Date:** Jan 19, 2026
+- **Contribution Date:** Jan 2026
 - **Description:** Will analyze GitHub API query logic and implement pagination to ensure older repositories with valid "Good First Issue" labels are not excluded. Focus on maintaining performance while retrieving all relevant issues.
 
 ---
 
 ### Notes
 - All contributions follow OSS best practices, including clean commits and meaningful PR descriptions.
+- PRs include clear commit messages, scoped changes, and detailed descriptions.
 - This portfolio will be regularly updated with new contributions, merged PRs.
