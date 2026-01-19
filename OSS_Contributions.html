@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mithra J - Open Source Contributions</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9ff;
+  color: #222;
+  line-height: 1.6;
+  padding: 30px;
+}
+h1, h2, h3 {
+  color: #5b4bc4;
+}
+.section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+code {
+  background: #eee;
+  padding: 5px;
+  display: block;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+.badge {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #5b4bc4;
+  color: white;
+  border-radius: 6px;
+  margin-right: 6px;
+  font-size: 13px;
+}
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  color: gray;
+}
+a {
+  color: #5b4bc4;
+  text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🌟 Open Source Contributions — Mithra J</h1>
+<p>This document tracks my real open source contributions with technical proof and progress.</p>
+
+<div class="section">
+<h2>📊 Contribution Overview</h2>
+<ul>
+<li>Coffee Website — UI/UX Enhancement</li>
+<li>OpenRefine — UI Bug Fix</li>
+<li>Dinosaur Exploder — API Feature Implementation</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>🚀 Coffee Website</h2>
+<span class="badge">HTML</span>
+<span class="badge">CSS</span>
+<span class="badge">JS</span>
+
+<p><b>PR:</b> <a href="https://github.com/deepaktecz/Coffee-website/pull/22">#22</a></p>
+
+<p><b>Problem:</b> Abrupt dark/light mode switch.</p>
+<p><b>Solution:</b> Added smooth transitions.</p>
+
+<code>
+body, .navbar, .card {
+  transition: background-color 0.3s ease,
+              color 0.3s ease,
+              border-color 0.3s ease;
+}
+</code>
+
+<p><b>Impact:</b> Better UX with no performance cost.</p>
+</div>
+
+<div class="section">
+<h2>🚀 OpenRefine</h2>
+<span class="badge">JavaScript</span>
+<span class="badge">CSS</span>
+
+<p><b>PR:</b> <a href="https://github.com/OpenRefine/OpenRefine/pull/7610">#7610</a></p>
+
+<p><b>Problem:</b> Button alignment mismatch.</p>
+<p><b>Solution:</b> Standardized padding rules.</p>
+
+<p><b>Result:</b></p>
+<code>
+[🎯 Action]  → aligned
+[Action]     → aligned
+</code>
+</div>
+
+<div class="section">
+<h2>🚀 Dinosaur Exploder</h2>
+<span class="badge">JavaScript</span>
+<span class="badge">GitHub API</span>
+
+<p><b>Issue:</b> #99</p>
+
+<p><b>Problem:</b> Only first 100 results fetched.</p>
+
+<code>
+async function fetchAllGoodFirstIssues() {
+  let allIssues = [];
+  let page = 1;
+
+  while (true) {
+    const issues = await fetchGitHubAPI(`page=${page}`);
+    if (issues.length === 0) break;
+    allIssues.push(...issues);
+    page++;
+  }
+
+  return allIssues;
+}
+</code>
+</div>
+
+<div class="section">
+<h2>📈 Stats</h2>
+<ul>
+<li>Open PRs: 2</li>
+<li>Issues Participated: 3</li>
+<li>Projects: 3</li>
+<li>Languages: HTML, CSS, JS</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>📝 Philosophy</h2>
+<ul>
+<li>Atomic commits</li>
+<li>Clear PR descriptions</li>
+<li>Performance-focused</li>
+<li>Respect OSS standards</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>🔮 Next Goals</h2>
+<ul>
+<li>Get PRs merged</li>
+<li>Contribute to backend OSS</li>
+<li>Prepare GSSOC profile</li>
+</ul>
+</div>
+
+<div class="footer">
+<p>Last Updated: January 2026</p>
+<p>GitHub: https://github.com/mithra-j</p>
+</div>
+
+</body>
+</html>
