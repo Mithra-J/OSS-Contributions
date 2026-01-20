@@ -64,28 +64,6 @@ Standardized padding and alignment rules for consistent button layout.
 
 ---
 
-## 🚀 Dinosaur Exploder
-
-**Repository:** https://github.com/jvondermarck/dinosaur-exploder  
-**Issue:** #99  
-**Status:** 🔵 In Progress
-
-### Problem
-GitHub API pagination was limited, hiding older "Good First Issues" from contributors.
-
-### Planned Solution
-Implement complete pagination handling to retrieve all valid issues efficiently.
-
-### Expected Impact
-- 100% issue visibility
-- Better contributor onboarding
-- Scalable API query logic
-
-**Technologies Used:**  
-`JavaScript` `GitHub API` `Async/Await`
-
----
-
 ## 📈 Contribution Stats
 
 ```
