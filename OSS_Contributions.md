@@ -2,159 +2,127 @@
 
 > Building better software, one commit at a time.
 
+---
+
 ## 👋 About Me
 
-I'm passionate about contributing to open source and solving real-world problems through clean, performant code. Currently exploring frontend improvements and API optimizations across various projects.
+I am passionate about contributing to open source and solving real-world problems through clean, performant, and maintainable code. My focus is on frontend UX improvements, UI consistency, and scalable API-driven solutions.
 
 ---
 
 ## 📊 Contribution Overview
 
 | Project | Type | Status | Technologies |
-|---------|------|--------|--------------|
-| [Coffee Website](#-coffee-website) | UI/UX Enhancement | 🟡 Open | HTML, CSS, JS |
-| [OpenRefine](#-openrefine) | UI Bug Fix | 🟡 Open | JavaScript, CSS |
-| [Dinosaur Exploder](#-dinosaur-exploder) | API Feature | 🔵 In Progress | JavaScript, GitHub API |
+|--------|------|--------|--------------|
+| Coffee Website | UI/UX Enhancement | ✅ Merged | HTML, CSS, JavaScript |
+| OpenRefine | UI Bug Fix | 🟡 Open | JavaScript, CSS |
+| Dinosaur Exploder | API Feature | 🔵 In Progress | JavaScript, GitHub API |
 
 ---
 
 ## 🚀 Coffee Website
 
-**Repository:** [deepaktecz/Coffee-website](https://github.com/deepaktecz/Coffee-website)  
-**Pull Request:** [#22](https://github.com/deepaktecz/Coffee-website/pull/22)
+**Repository:** https://github.com/deepaktecz/Coffee-website  
+**Pull Request:** https://github.com/deepaktecz/Coffee-website/pull/22  
+**Status:** ✅ **Merged**
 
 ### Problem
-The dark/light mode toggle caused abrupt visual jumps, creating a jarring user experience.
+Dark/light mode switching caused abrupt visual changes, leading to poor user experience.
 
 ### Solution
-Implemented smooth CSS transitions for seamless theme switching:
-
-```css
-body, .navbar, .card {
-  transition: background-color 0.3s ease,
-              color 0.3s ease,
-              border-color 0.3s ease;
-}
-```
+Implemented smooth, subtle, and performance-friendly CSS transitions for background and text colors.
 
 ### Impact
-- ✨ Enhanced UX with professional-feeling transitions
-- ⚡ Zero performance overhead
-- 🎨 Consistent transition timing across all elements
+- Enhanced UI professionalism
+- Zero performance degradation
+- Consistent animation behavior across browsers
 
-**Technologies:** `HTML` `CSS` `JavaScript`
+**Technologies Used:**  
+`HTML` `CSS` `JavaScript`
 
 ---
 
 ## 🚀 OpenRefine
 
-**Repository:** [OpenRefine/OpenRefine](https://github.com/OpenRefine/OpenRefine)  
-**Pull Request:** [#7610](https://github.com/OpenRefine/OpenRefine/pull/7610)
+**Repository:** https://github.com/OpenRefine/OpenRefine  
+**Pull Request:** https://github.com/OpenRefine/OpenRefine/pull/7610  
+**Status:** 🟡 Awaiting review
 
 ### Problem
-Button alignment inconsistency across the UI when icons were present or absent.
+Buttons with icons and without icons were misaligned across the interface.
 
 ### Solution
-Standardized padding rules to ensure consistent button dimensions.
-
-**Before:**
-```
-[🎯 Action]  → misaligned
-[Action]     → misaligned
-```
-
-**After:**
-```
-[🎯 Action]  → aligned
-[Action]     → aligned
-```
+Standardized padding and alignment rules for consistent button layout.
 
 ### Impact
-- 🎯 Improved visual consistency
-- 📐 Better alignment across the application
-- 🔧 Easier maintenance for future button additions
+- Improved UI consistency
+- Cleaner visual hierarchy
+- Easier future maintenance
 
-**Technologies:** `JavaScript` `CSS`
+**Technologies Used:**  
+`JavaScript` `CSS`
 
 ---
 
 ## 🚀 Dinosaur Exploder
 
-**Repository:** [Dinosaur Exploder](https://github.com/)  
-**Issue:** [#99](#)
+**Repository:** https://github.com/jvondermarck/dinosaur-exploder  
+**Issue:** #99  
+**Status:** 🔵 In Progress
 
 ### Problem
-API pagination was limited to the first 100 results, missing many "good first issues" for contributors.
+GitHub API pagination was limited, hiding older "Good First Issues" from contributors.
 
-### Solution
-Implemented recursive pagination to fetch all available results:
+### Planned Solution
+Implement complete pagination handling to retrieve all valid issues efficiently.
 
-```javascript
-async function fetchAllGoodFirstIssues() {
-  let allIssues = [];
-  let page = 1;
-  
-  while (true) {
-    const issues = await fetchGitHubAPI(`page=${page}`);
-    if (issues.length === 0) break;
-    allIssues.push(...issues);
-    page++;
-  }
-  
-  return allIssues;
-}
-```
+### Expected Impact
+- 100% issue visibility
+- Better contributor onboarding
+- Scalable API query logic
 
-### Impact
-- 📈 100% complete data retrieval
-- 🔍 Better discovery for new contributors
-- 🚀 Scalable solution for growing repositories
-
-**Technologies:** `JavaScript` `GitHub API` `Async/Await`
+**Technologies Used:**  
+`JavaScript` `GitHub API` `Async/Await`
 
 ---
 
 ## 📈 Contribution Stats
 
 ```
-📌 Open PRs:              2
-🐛 Issues Participated:   3
-🎯 Projects:              3
-💻 Languages:             HTML, CSS, JavaScript
+Merged PRs:        1
+Open PRs:          1
+Projects:          3
+Languages:         HTML, CSS, JavaScript
 ```
 
 ---
 
 ## 📝 My OSS Philosophy
 
-- **Atomic Commits** — Each commit does one thing well
-- **Clear Communication** — Detailed PR descriptions with context
-- **Performance-First** — Optimize without sacrificing readability
-- **Respect Standards** — Follow project conventions and guidelines
+- Atomic commits
+- Clear and respectful communication
+- Performance-conscious coding
+- Consistency with project standards
+- Long-term maintainability over shortcuts
 
 ---
 
-## 🔮 What's Next
+## 🔮 Roadmap
 
-- [ ] Get current PRs merged
-- [ ] Contribute to backend open source projects
-- [ ] Build comprehensive GSSOC profile
-- [ ] Explore TypeScript-based repositories
+- [x] Achieve first merged OSS PR
+- [ ] Reach 3+ merged PRs
+- [ ] Expand into backend OSS
+- [ ] Strengthen GSSOC contributor profile
 - [ ] Contribute to developer tooling
 
 ---
 
-## 🤝 Let's Connect
+## 🤝 Contact
 
-- **GitHub:** [@mithra-j](https://github.com/mithra-j)
-- **Open to collaboration** on web projects, API improvements, and developer tools
+GitHub: https://github.com/Mithra-j  
+Open to collaboration on frontend, UX, and API-based projects.
 
 ---
 
-<div align="center">
-
-**Last Updated:** January 2026
-
-*Made with 💜 for the open source community*
-
-</div>
+**Last Updated:** January 2026  
+*Crafted with dedication for the open source community.*
