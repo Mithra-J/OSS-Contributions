@@ -11,7 +11,7 @@ I am passionate about contributing to open source and solving real-world problem
 ## 📊 Contribution Overview
 | Project | Type | Status | Technologies |
 |--------|------|--------|--------------|
-| Hiero Website | Documentation Fix | 🔵 In Progress | Markdown |
+| Hiero Website | Documentation Fix | ✅ Merged | Markdown |
 | Coffee Website | UI/UX Enhancement | ✅ Merged | HTML, CSS, JavaScript |
 | OpenRefine | UI Bug Fix | 🟡 Open | JavaScript, CSS |
 | Dinosaur Exploder | API Feature | 🔵 In Progress | JavaScript, GitHub API |
@@ -22,7 +22,7 @@ I am passionate about contributing to open source and solving real-world problem
 **Repository:** https://github.com/hiero-ledger/hiero-website  
 **Issue:** https://github.com/hiero-ledger/hiero-website/issues/133  
 **Pull Request:** https://github.com/hiero-ledger/hiero-website/pull/139  
-**Status:** 🔵 **In Progress**
+**Status:** ✅ **Merged**
 
 ### Problem
 The README.md file contained an incorrect link to a blog post example. The link pointed to `/edit/main/` (edit mode) instead of `/blob/main/` (view mode), causing confusion for users trying to view the example.
@@ -84,9 +84,9 @@ Standardized padding and alignment rules for consistent button layout.
 
 ## 📈 Contribution Stats
 ```
-Merged PRs:        1
-Open PRs:          2
-In Progress:       2
+Merged PRs:        2
+Open PRs:          1
+In Progress:       1
 Total Projects:    4
 Languages:         HTML, CSS, JavaScript, Markdown
 ```
